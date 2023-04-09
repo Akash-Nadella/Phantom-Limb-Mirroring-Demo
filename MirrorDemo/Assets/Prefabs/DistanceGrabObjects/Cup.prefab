@@ -53,12 +53,12 @@ MonoBehaviour:
   _interactorFilters: []
   _maxInteractors: -1
   _maxSelectingInteractors: -1
+  _data: {fileID: 0}
   _pointableElement: {fileID: 3982402566862568305}
   _rigidbody: {fileID: 3982402566862568306}
   _resetGrabOnGrabsUpdated: 1
   _physicsGrabbable: {fileID: 0}
   _scoringModifier:
-    _maxDistance: 0.1
     _positionRotationWeight: 0.8
   _supportedGrabTypes: 3
   _pinchGrabRules:
@@ -169,6 +169,7 @@ MonoBehaviour:
   _interactorFilters: []
   _maxInteractors: -1
   _maxSelectingInteractors: -1
+  _data: {fileID: 0}
   _pointableElement: {fileID: 3982402566862568305}
   _rigidbody: {fileID: 3982402566862568306}
   _resetGrabOnGrabsUpdated: 1
@@ -292,6 +293,33 @@ MonoBehaviour:
     ColorTime: 0.1
   _selectColorState:
     Color: {r: 1, g: 0.8746814, b: 0, a: 1}
+    ColorCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    ColorTime: 0.1
+  _disabledColorState:
+    Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -467,12 +495,12 @@ MonoBehaviour:
   _interactorFilters: []
   _maxInteractors: -1
   _maxSelectingInteractors: -1
+  _data: {fileID: 0}
   _pointableElement: {fileID: 3982402566862568305}
   _rigidbody: {fileID: 3982402566862568306}
   _resetGrabOnGrabsUpdated: 1
   _physicsGrabbable: {fileID: 0}
   _scoringModifier:
-    _maxDistance: 0.1
     _positionRotationWeight: 0.8
   _supportedGrabTypes: 3
   _pinchGrabRules:
@@ -544,6 +572,7 @@ MonoBehaviour:
   _interactorFilters: []
   _maxInteractors: -1
   _maxSelectingInteractors: -1
+  _data: {fileID: 0}
   _pointableElement: {fileID: 3982402566862568305}
   _rigidbody: {fileID: 3982402566862568306}
   _resetGrabOnGrabsUpdated: 1
@@ -667,6 +696,33 @@ MonoBehaviour:
     ColorTime: 0.1
   _selectColorState:
     Color: {r: 1, g: 0.8746814, b: 0, a: 1}
+    ColorCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    ColorTime: 0.1
+  _disabledColorState:
+    Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
