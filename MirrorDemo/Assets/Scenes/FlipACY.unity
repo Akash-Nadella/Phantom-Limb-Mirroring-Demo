@@ -256,27 +256,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 309f476528dede44caef9d7ad5d5c96b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
---- !u!1 &539266019 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7253494483334260114, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-  m_PrefabInstance: {fileID: 539266018}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &539266020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539266019}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 194f93753b269764a90141e739727f1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hand: {fileID: 0}
-  handSkeleton: {fileID: 0}
-  pointerPosePrefab: {fileID: 8181233294728536424, guid: ec9e2839fc229964fbc22ebecb731c16, type: 3}
-  bonePrefab: {fileID: 8181233294728536424, guid: 65c57d0dcdc1e364fa4165f549f76952, type: 3}
 --- !u!1 &539266021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
@@ -309,8 +288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84c77d2fede3c4d49bd3d49d188ac330, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mirrorLeft: 0
-  mirrorRight: 1
+  mirrorLeft: 1
+  mirrorRight: 0
   leftHand: {fileID: 539266024}
   rightHand: {fileID: 539266023}
   playerTransform: {fileID: 539266025}
@@ -488,24 +467,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a751754113aeba43b4c63c176dd9ad8, type: 3}
---- !u!1 &2014736935 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 218546441363421626, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
-  m_PrefabInstance: {fileID: 539266018}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2014736937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2014736935}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 194f93753b269764a90141e739727f1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hand: {fileID: 0}
-  handSkeleton: {fileID: 0}
-  pointerPosePrefab: {fileID: 8181233294728536424, guid: ec9e2839fc229964fbc22ebecb731c16, type: 3}
-  bonePrefab: {fileID: 8181233294728536424, guid: 65c57d0dcdc1e364fa4165f549f76952, type: 3}

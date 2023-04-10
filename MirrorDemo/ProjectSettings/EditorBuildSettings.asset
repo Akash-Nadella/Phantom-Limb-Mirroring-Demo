@@ -5,15 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabUseExamples.unity
     guid: 509f8fa80c708b343a603a4771d35c85
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Debug.unity
     guid: fbd50b750bc5df54f89b12a7dcd41698
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FlipTest1.unity
     guid: 8bd824faa1989f24b87e80fed4468ee8
+  - enabled: 0
+    path: Assets/YoutubeScenes/Scenes/HandTrackingWithISDK.unity
+    guid: 85ad4d5c5979aa943b9d7a821087618b
+  - enabled: 0
+    path: Assets/YoutubeScenes/Scenes/HandTrackingPriorToISDK.unity
+    guid: 597a6ec78423c1b4d9ee7b9a0745eb75
+  - enabled: 0
+    path: Assets/Scenes/FlipSY.unity
+    guid: b1cc493f5aff9cc47acd6d5cdbdb3501
+  - enabled: 0
+    path: Assets/Scenes/FlipACY.unity
+    guid: a11045bc7ff1a0c418710e5f182e4ead
+  - enabled: 1
+    path: Assets/Scenes/FlipAY.unity
+    guid: a03efab46b707024780aea384c68f874
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1401f76c4a0d2624abce2113d040d7ae, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1680197bc93dfb84bb2dffe2c0c076c1, type: 2}
