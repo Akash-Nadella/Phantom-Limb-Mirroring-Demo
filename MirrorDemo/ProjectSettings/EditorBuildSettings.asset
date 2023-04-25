@@ -26,9 +26,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/FlipACY.unity
     guid: a11045bc7ff1a0c418710e5f182e4ead
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FlipAY.unity
     guid: a03efab46b707024780aea384c68f874
+  - enabled: 0
+    path: Assets/Scenes/2ndSceneMirroredMoveableButArmFollowsFloorLevel.unity
+    guid: c136d6a5ca5e4494eacaffef954301fc
+  - enabled: 1
+    path: Assets/Scenes/1stSceneBoneDisplay.unity
+    guid: 11404bb7549272b43996563f6043160b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1401f76c4a0d2624abce2113d040d7ae, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1680197bc93dfb84bb2dffe2c0c076c1, type: 2}

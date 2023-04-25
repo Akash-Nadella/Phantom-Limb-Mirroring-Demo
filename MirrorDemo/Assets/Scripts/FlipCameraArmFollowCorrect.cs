@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class FlipCameraArmFollowCorrect : MonoBehaviour
 {
@@ -10,6 +12,8 @@ public class FlipCameraArmFollowCorrect : MonoBehaviour
     public GameObject rightHand; //right hand anchor from OVRCameraRig
 
     public Transform playerTransform;
+
+    [SerializeField] TextMeshProUGUI debugText;
 
     void Start()
     {
@@ -27,6 +31,8 @@ public class FlipCameraArmFollowCorrect : MonoBehaviour
         else if (mirrorRight)
         {
             MirrorFromTo(right, left);
+
+            debugText.text = left.position.ToString();
         }
     }
 
